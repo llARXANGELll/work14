@@ -1,20 +1,17 @@
 package work14;
 
-import org.assertj.core.util.Arrays;
 import org.testng.annotations.Test;
-import static org.assertj.core.api.Assertions.*;
 
-import java.lang.reflect.Array;
-import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.List;
 
 public class StrucTest {
 
       @Test
       public void personTest (){
-          List<String> prof = Arrays.asList("Водитель","Инженер");
+          List<String> prof = Arrays.asList("Pety", "Coly");
+          Person ivan = new Person("Вася", 45 , prof);
 
-          Person pety = new Person("Петя", 2,"Водитель" );
 
   }
 }
